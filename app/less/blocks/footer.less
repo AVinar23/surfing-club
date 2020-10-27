@@ -1,0 +1,22 @@
+.footer {
+    padding: 50px 0 95px;
+
+    @media (max-width: 992px ) {
+        padding: 20px 0 50px;
+    }
+}
+.footer__nav {
+    flex-direction: column;
+
+    & .nav__logo,
+    & .nav__list {
+        margin-bottom: 40px;
+    }
+}
+.footer__link {
+    margin-right: 30px;
+
+    &:last-child {
+        margin: 0;
+    }
+}

@@ -1,0 +1,26 @@
+.header {
+    padding-top: 40px;
+
+    & .wrapper {
+        position: relative;
+    }
+
+    @media (max-width: 992px ) {
+        padding-top: 20px;
+
+        & .vertical-text {
+            transform: rotate(0deg);
+
+            position: static;
+
+            margin-bottom: 15px;
+        }
+    }
+}
+.header__nav .nav__logo {
+    margin-right: 16.6%;
+
+    @media (max-width: 992px ) {
+        margin-right: 0;
+    }
+}

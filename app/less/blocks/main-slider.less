@@ -1,0 +1,125 @@
+.main-slider-container {
+    padding: 45px 0 95px;
+
+    @media (max-width: 992px ) {
+        padding: 15px 0 45px;
+    }
+}
+.main-slider-wrapper {
+    position: relative;
+}
+.main-slider {
+    overflow: hidden;
+}
+#main-slider {
+    .slick-list {
+        overflow: visible;
+    }
+    
+    &.slick-initialized .slick-slide {
+        display: flex;
+    }
+}
+.main-slider__item {
+    width: 100%;
+    max-height: 560px;
+    position: relative;
+
+    display: flex;
+    justify-content: flex-end;
+
+    @media (max-width: 992px ) {
+        padding-bottom: 100px;
+    }
+}
+.main-slider__controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 80px;
+
+    & button {
+        background: none;
+        border: none;
+    }
+
+    @media (max-width: 992px ) {
+        bottom: -35px;
+    }
+}
+.main-slider__img {
+    width: 82%;
+    
+    & img {
+        width: 99.95%;
+        max-height: 560px;
+    }
+    @media (max-width: 992px ) {
+        width: 100%;
+    }
+}
+.main-slider__text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 50%;
+
+    & h2 {
+        margin-top: 15px;
+
+        @media (max-width: 768px ) {
+            margin-top: 5px;
+        }
+    }
+    & p {
+        font-family: @poppins;
+        color: @light-gray;
+        line-height: 24px;
+
+        width: 65%;
+        margin-top: 15px;
+
+        @media (max-width: 992px ) {
+            width: 100%;
+            color: @black;
+        }
+
+        @media (max-width: 768px ) {
+            margin-top: 5px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 554px ) {
+           font-size: 12px;
+        }
+    }
+
+    @media (max-width: 992px ) {
+        background-color:white;
+        border: 2px solid @blue;
+
+        text-align: center;
+
+        padding: 10px 20px;
+
+        left: 50%;
+        top: auto;
+        bottom: 0;
+        transform: translate(-50%, 0);
+    }
+
+    @media (max-width: 768px ) {
+        width: 75%;
+    }
+
+    @media (max-width: 554px ) {
+        width: 85%;
+    }
+}

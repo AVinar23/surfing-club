@@ -1,0 +1,62 @@
+.quote-container {
+    padding: 95px 0 30px;
+
+    @media (max-width: 992px ) {
+        padding: 45px 0 20px;
+    }
+}
+
+.quote {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+
+    &:after {
+        content: "";
+        width: 2px;
+        height: 100px;
+        display: block;
+        
+        background-color: @blue;
+
+        margin: 58px auto 0;
+
+        @media (max-width: 992px ) {
+            height: 70px;
+            margin-top: 35px;
+        }
+    }
+    
+    &__text {
+        font-size: @text-md;
+        font-family: @playfair;
+        line-height: 38px;
+
+        @media (max-width: 992px ) {
+            font-size: 20px;
+            line-height: 34px;
+        }
+    }
+
+    &__auth {
+        font-size: @text-sm;
+        font-family: @spartan;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+
+        margin-top: 30px;
+
+        @media (max-width: 992px ) {
+            margin-top: 15px;
+        }
+    }
+
+    @media (max-width: 992px ) {
+        width: 70%;
+    }
+
+    @media (max-width: 554px ) {
+        width: 85%;
+    }
+}
+

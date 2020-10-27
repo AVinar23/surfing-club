@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300&family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="css/app.min.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+
+    <title>Surfing Club</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="wrapper">
+            <nav class="nav header__nav">
+                <a href="/" class="nav__logo svg-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    width="16" height="44" viewBox="0 0 16 44">
+                        <defs>
+                            <path id="v44na" d="M124 58.58c0 13.508-4.967 22.664-5.178 23.046l-.206.374h-5.232l-.206-.374c-.212-.382-5.178-9.538-5.178-23.045C108 45.21 113.679 38 116 38c2.321 0 8 7.211 8 20.58zm-4.727 18.38c-.142-.59-.822-2.645-3.645-4.285-2.565-1.491-4.252-3.268-5.366-4.932 1.19 6.807 3.35 11.521 4.005 12.837h1.006v-4.967h1.454v4.967h1.006c.29-.581.874-1.826 1.54-3.62zm1.839-6.146c-.014-.045-.8-2.625-5.473-5.23-3.276-1.827-5.12-3.98-6.161-5.865.02.88.056 1.741.117 2.58.127.975 1.034 5.818 6.778 9.155 1.908 1.11 2.988 2.412 3.6 3.47a53.17 53.17 0 0 0 1.139-4.11zm.458-2.13c.574-2.971.975-6.374.975-10.103 0-11.177-3.956-17.075-5.818-18.697V62.13h-1.454V39.884c-1.656 1.443-4.965 5.922-5.68 15.148h.001c-.006 0-.09 5.484 6.767 9.307 2.82 1.573 4.367 3.176 5.21 4.345z"/>
+                        </defs>
+                        <g>
+                            <g transform="translate(-108 -38)">
+                                <use xlink:href="#v44na"/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <div class="vertical-text"> First Surfing Magazine </div>
+                <ul class="nav__list">
+                    <li class="nav__link"> <a href="#stories"> Stories </a> </li>
+                    <li class="nav__link"> <a href="#"> Events </a> </li>
+                    <li class="nav__link"> <a href="#"> Places </a> </li>
+                    <li class="nav__link"> <a href="#shop"> Boards </a> </li>
+                    <li class="nav__link"> <a href="#contacts"> Contacts </a> </li>
+                </ul>
+            </nav> 
+        </div>
+        
+        
+    </header>
+    <!-- //Header -->
+
+    <main>
+        <!-- Main-slider -->
+        <section class="main-slider-container">
+            <div class="wrapper">
+                <div class="main-slider-wrapper">
+                    <div id="main-slider" class="main-slider">
+
+                        <!-- Slides -->
+                        <div class="main-slider__item">
+                            <div class="main-slider__img">
+                                <img src="images/slider/img-1.jpg" alt="image">
+                            </div>
+                            <div class="main-slider__text">
+                                <span class="label"> Your </span>
+                                <h2> Beautiful Escape </h2>
+                                <p>
+                                    One of the greatest things about the 
+                                    sport of surfing is that you need
+                                    only three things your body, a surfboard and a wave.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="main-slider__item">
+                            <div class="main-slider__img">
+                                <img src="images/slider/img-2.jpg" alt="image">
+                            </div>
+                            <div class="main-slider__text">
+                                <span class="label"> Your </span>
+                                <h2> Beautiful Escape1 </h2>
+                                <p>
+                                    One of the greatest things about the 
+                                    sport of surfing is that you need
+                                    only three things your body, a surfboard and a wave.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="main-slider__item">
+                            <div class="main-slider__img">
+                                <img src="images/slider/img-3.jpg" alt="image">
+                            </div>
+                            <div class="main-slider__text">
+                                <span class="label"> Your </span>
+                                <h2> Beautiful Escape </h2>
+                                <p>
+                                    One of the greatest things about the 
+                                    sport of surfing is that you need
+                                    only three things your body, a surfboard and a wave.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- //Slides -->
+
+                    </div>
+                    <!-- Slides controls -->
+                    <div class="main-slider__controls">  </div>
+
+                    <div class="vertical-social">
+                        <a href="#" class="vertical-social__link svg-tumblr"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            width="13" height="21" viewBox="0 0 13 21">
+                                <defs>
+                                    <path id="py0ta" d="M1386.06 580v4.72h4.69v3.56h-4.69v4.743s-.312 3.374 1.96 3.551c0 0 2.605.186 3.53-1.184v3.552s-2.223 1.199-4.314 1.199c-2.092 0-5.45-1.043-5.492-5.146v-6.708h-2.353v-3.157s3.687-.4 4.315-5.13z"/>
+                                </defs>
+                                <g>
+                                    <g transform="translate(-1379 -580)">
+                                        <use xlink:href="#py0ta"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="#" class="vertical-social__link svg-twitter"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            width="19" height="15" 
+                            viewBox="0 0 19 15">
+                                <defs>
+                                    <path id="7mlua" d="M1392.511 635.524l1.847-.369s-1.547 1.75-1.847 1.845c-.003.001-.006-.002-.009-.002-.04.853.01 1.109.01 1.109-3.53 15.21-16.52 8.486-16.52 8.486 4.727.125 5.148-1.845 5.148-1.845-2.768-.42-3.301-2.213-3.301-2.213.94.43 1.467-.37 1.467-.37-2.987-.776-2.568-3.69-2.568-3.69.5.46 1.315.634 1.8.7-.337-.394-3.125-3.756-1.433-5.495 0 0 2.036 3.682 7.428 4.035l.36-.09a3.91 3.91 0 0 1-.085-.81c0-2.139 1.725-3.874 3.852-3.874 2.564 0 3.118 1.476 3.118 1.476l1.834-1.107s-.201 1.85-1.1 2.214z"/>
+                                </defs>
+                                <g>
+                                    <g transform="translate(-1376 -633)">
+                                        <use xlink:href="#7mlua"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="#" class="vertical-social__link svg-vimeo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            width="19" height="16" 
+                            viewBox="0 0 19 16">
+                                <defs>
+                                    <path id="a6m7a" d="M1387.21 686.813c-.008.457.568.104 1.101.369s1.594.567.734 2.951c0 0-1.203 3.594-2.201 3.32 0 0-1.55.063-1.834-3.32-.285-3.383-.863-6.817-2.568-6.641-1.704.176-4.178 1.842-5.857 4.058 0 0 .463 1.158 1.089 1.107.625-.05.586-.96 1.1-.738.514.224 1.31.187 1.834 3.32.525 3.135 1.307 4.784 2.201 6.273.894 1.49 1.802 1.49 2.568 1.49.765 0 3.22-1.778 5.502-4.81 2.282-3.033 4.044-6.688 4.044-7.38 0-.691.646-3.24-1.843-3.689-2.49-.45-5.836 2.065-5.87 3.69z"/>
+                                </defs>
+                                <g>
+                                    <g transform="translate(-1376 -683)">
+                                        <use xlink:href="#a6m7a"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- //Main-slider -->
+
+        <!-- Quote -->
+        <section class="quote-container">
+            <div class="wrapper">
+                <div class="quote">
+                    <p class="quote__text"> Surfing is the most blissful experience 
+                        you can have  on this planet, a taste of heaven </p>
+                    <p class="quote__auth"> John McCarthy </p>
+                </div>
+            </div>
+        </section>
+        <!-- //Quote -->
+
+        <!-- Gallery -->
+        <section class="gallery">
+            <div class="wrapper">
+                <div class="gallery__img">
+                    <img src="images/img/img-1.jpg" alt="picture">
+                </div>
+                <div class="gallery__video">
+                    <img src="images/img/img-2.jpg" alt="Video">
+                    <a href="#" class="video-control svg-play">
+                        <!--<img src="images/controls/control-play.svg" alt="Play">-->
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        width="14" height="17" 
+                        viewBox="0 0 14 17">
+                            <defs>
+                                <path id="iwnqa" d="M986.71 1529.473l-13.362 7.714v-15.428z"/>
+                            </defs>
+                            <g>
+                                <g transform="translate(-973 -1521)">
+                                    <use xlink:href="#iwnqa"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="gallery__desc">
+                    <p class="gallery__text"> By better understanding the various aspects 
+                        of surfing, you will improve faster and have more fun with water. </p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+        </section>  
+        <!-- //Gallery -->      
+        
+        <!-- Shop -->
+        <section class="shop" id="shop">
+            <div class="wrapper">
+                <div class="shop__title">
+                    <span class="label"> Shop </span>
+                    <h3> Surfboards </h3>
+                </div>
+
+                <div id="shop-slider" class="shop-slider">
+                        <div class="slider-item">
+                            <div class="slider-item__picture">
+                                <img src="images/boards/board-1.png" alt="Board">
+                            </div>
+                            <div class="slider-item__desc">
+                                <div class="slider-item__caregory"> Funboards </div>
+                                <h4 class="slider-item__name"> Chilli Rare Bird </h4>
+                                <div class="slider-item__buy">
+                                    <div class="slider-item__price"> $ 890 </div>
+                                    <a href="#" class="slider-item__link"> Buy </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-item">
+                            <div class="slider-item__picture">
+                                <img src="images/boards/board-2.png" alt="Board">
+                            </div>
+                            <div class="slider-item__desc">
+                                <div class="slider-item__caregory"> Surfboards </div>
+                                <h4 class="slider-item__name"> Emery NEM XF </h4>
+                                <div class="slider-item__buy">
+                                    <div class="slider-item__price"> $ 950 </div>
+                                    <a href="#" class="slider-item__link"> Buy </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-item">
+                            <div class="slider-item__picture">
+                                <img src="images/boards/board-3.png" alt="Board">
+                            </div>
+                            <div class="slider-item__desc">
+                                <div class="slider-item__caregory"> Funboards </div>
+                                <h4 class="slider-item__name"> Agency GROM </h4>
+                                <div class="slider-item__buy">
+                                    <div class="slider-item__price"> $ 670 </div>
+                                    <a href="#" class="slider-item__link"> Buy </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-item">
+                            <div class="slider-item__picture">
+                                <img src="images/boards/board-1.png" alt="Board">
+                            </div>
+                            <div class="slider-item__desc">
+                                <div class="slider-item__caregory"> Funboards </div>
+                                <h4 class="slider-item__name"> Chilli Rare Bird </h4>
+                                <div class="slider-item__buy">
+                                    <div class="slider-item__price"> $ 890 </div>
+                                    <a href="#" class="slider-item__link"> Buy </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-item">
+                            <div class="slider-item__picture">
+                                <img src="images/boards/board-3.png" alt="Board">
+                            </div>
+                            <div class="slider-item__desc">
+                                <div class="slider-item__caregory"> Funboards </div>
+                                <h4 class="slider-item__name"> Agency GROM </h4>
+                                <div class="slider-item__buy">
+                                    <div class="slider-item__price"> $ 670 </div>
+                                    <a href="#" class="slider-item__link"> Buy </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="shop__link">
+                    <a href="#" class="link">Show all</a>
+                </div>
+                
+            </div>
+        </section>
+        <!-- //Shop -->
+
+        <!-- Articles -->
+        <section class="articles" id="stories">
+            <div class="wrapper">
+                <article class="article">
+                    <div class="article__desc">
+                        <h3 class="article__title" data-number="01"> Surf Training </h3>
+                        <div class="article__text">
+                            <p>
+                                By better understanding the various aspects of surfing, By better
+                                understanding the various aspects of surfing, you will improve 
+                                faster and have more fun in water.
+                            </p>
+                        </div>
+                        <a href="" class="link"> Read more </a>
+                    </div>
+                    <div class="article__preview">
+                        <img src="images/img/img-4.jpg" alt="Surf Training">
+                        <div class="article__vertical-text">
+                            <div class="vertical-text"> Surf Camps </div> 
+                        </div>
+                    </div>
+                </article>
+                <article class="article odd">
+                    <div class="article__desc">
+                        <h3 class="article__title" data-number="02"> Point Break </h3>
+                        <div class="article__text">
+                            <p>
+                                By better understanding the various aspects of surfing, By better
+                                understanding the various aspects of surfing, you will improve 
+                                faster and have more fun in water.
+                            </p>
+                        </div>
+                        <a href="" class="link"> Read more </a>
+                    </div>
+                    <div class="article__preview">
+                        <img src="images/img/img-5.jpg" alt="Point Break">
+                        <div class="article__vertical-text">
+                            <div class="vertical-text"> Surf Camps </div>
+                        </div>
+                        
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- //Articles -->
+
+        <!-- Subscribe -->
+        <section class="subscribe-container">
+            <div class="wrapper">
+                <div class="subscribe">
+                    <h3 class="subscribe__title"> Join the Club </h3>
+                    <div class="subscribe__text">
+                        <p>
+                            By better understanding the various aspects of surfing, By better
+                            understanding the various aspects of surfing, you will improve 
+                            faster and have more fun in water.
+                        </p>
+                    </div>
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Your Email" class="subscribe__input">
+                        <input type="submit" class="subscribe__submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- //Subscribe -->
+
+        <!-- Contacts -->
+        <section class="contacts" id="contacts">
+            <div class="contacts__image">
+                
+            </div>
+            <div class="contacts__desc">
+                <span class="label"> Our Camp </span>
+                <div class="contacts__adress">
+                    CA 91932, USA </br>
+                    Imperial Beach </br>
+                    560 Silver Strand Blvd 
+                </div>
+                <a href="#" class="link"> Get in Touch </a>
+            </div>
+        </section>
+        <!-- //Contacts -->
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="wrapper">
+            <nav class="nav footer__nav">
+                <a href="/" class="nav__logo svg-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    width="16" height="44" viewBox="0 0 16 44">
+                        <defs>
+                            <path id="v44na" d="M124 58.58c0 13.508-4.967 22.664-5.178 23.046l-.206.374h-5.232l-.206-.374c-.212-.382-5.178-9.538-5.178-23.045C108 45.21 113.679 38 116 38c2.321 0 8 7.211 8 20.58zm-4.727 18.38c-.142-.59-.822-2.645-3.645-4.285-2.565-1.491-4.252-3.268-5.366-4.932 1.19 6.807 3.35 11.521 4.005 12.837h1.006v-4.967h1.454v4.967h1.006c.29-.581.874-1.826 1.54-3.62zm1.839-6.146c-.014-.045-.8-2.625-5.473-5.23-3.276-1.827-5.12-3.98-6.161-5.865.02.88.056 1.741.117 2.58.127.975 1.034 5.818 6.778 9.155 1.908 1.11 2.988 2.412 3.6 3.47a53.17 53.17 0 0 0 1.139-4.11zm.458-2.13c.574-2.971.975-6.374.975-10.103 0-11.177-3.956-17.075-5.818-18.697V62.13h-1.454V39.884c-1.656 1.443-4.965 5.922-5.68 15.148h.001c-.006 0-.09 5.484 6.767 9.307 2.82 1.573 4.367 3.176 5.21 4.345z"/>
+                        </defs>
+                        <g>
+                            <g transform="translate(-108 -38)">
+                                <use xlink:href="#v44na"/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+
+                <ul class="nav__list">
+                    <li class="nav__link"> <a href="#stories"> Stories </a> </li>
+                    <li class="nav__link"> <a href="#"> Events </a> </li>
+                    <li class="nav__link"> <a href="#"> Places </a> </li>
+                    <li class="nav__link"> <a href="#shop"> Boards </a> </li>
+                    <li class="nav__link"> <a href="#contacts"> Contacts </a> </li>
+                </ul>
+                
+                <div class="footer__social">
+                    <a href="#" class="footer__link svg-tumblr"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        width="13" height="21" viewBox="0 0 13 21">
+                            <defs>
+                                <path id="py0ta" d="M1386.06 580v4.72h4.69v3.56h-4.69v4.743s-.312 3.374 1.96 3.551c0 0 2.605.186 3.53-1.184v3.552s-2.223 1.199-4.314 1.199c-2.092 0-5.45-1.043-5.492-5.146v-6.708h-2.353v-3.157s3.687-.4 4.315-5.13z"/>
+                            </defs>
+                            <g>
+                                <g transform="translate(-1379 -580)">
+                                    <use xlink:href="#py0ta"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__link svg-twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        width="19" height="15" 
+                        viewBox="0 0 19 15">
+                            <defs>
+                                <path id="7mlua" d="M1392.511 635.524l1.847-.369s-1.547 1.75-1.847 1.845c-.003.001-.006-.002-.009-.002-.04.853.01 1.109.01 1.109-3.53 15.21-16.52 8.486-16.52 8.486 4.727.125 5.148-1.845 5.148-1.845-2.768-.42-3.301-2.213-3.301-2.213.94.43 1.467-.37 1.467-.37-2.987-.776-2.568-3.69-2.568-3.69.5.46 1.315.634 1.8.7-.337-.394-3.125-3.756-1.433-5.495 0 0 2.036 3.682 7.428 4.035l.36-.09a3.91 3.91 0 0 1-.085-.81c0-2.139 1.725-3.874 3.852-3.874 2.564 0 3.118 1.476 3.118 1.476l1.834-1.107s-.201 1.85-1.1 2.214z"/>
+                            </defs>
+                            <g>
+                                <g transform="translate(-1376 -633)">
+                                    <use xlink:href="#7mlua"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__link svg-vimeo">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        width="19" height="16" 
+                        viewBox="0 0 19 16">
+                            <defs>
+                                <path id="a6m7a" d="M1387.21 686.813c-.008.457.568.104 1.101.369s1.594.567.734 2.951c0 0-1.203 3.594-2.201 3.32 0 0-1.55.063-1.834-3.32-.285-3.383-.863-6.817-2.568-6.641-1.704.176-4.178 1.842-5.857 4.058 0 0 .463 1.158 1.089 1.107.625-.05.586-.96 1.1-.738.514.224 1.31.187 1.834 3.32.525 3.135 1.307 4.784 2.201 6.273.894 1.49 1.802 1.49 2.568 1.49.765 0 3.22-1.778 5.502-4.81 2.282-3.033 4.044-6.688 4.044-7.38 0-.691.646-3.24-1.843-3.689-2.49-.45-5.836 2.065-5.87 3.69z"/>
+                            </defs>
+                            <g>
+                                <g transform="translate(-1376 -683)">
+                                    <use xlink:href="#a6m7a"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+            
+        </div>
+    </footer>
+    <!-- //Footer -->
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
